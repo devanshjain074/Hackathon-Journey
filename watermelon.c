@@ -1,12 +1,14 @@
 #include <stdio.h>
-void main()
+int main()
 {
  int n;
  scanf("%d", &n);
 if(n>=1 && n<=100)
-{ if(n%2==0)
-  printf("Yes");
+{ 
+if(n%2==0 & n>2)
+  printf("YES");
 else
-  printf("No");
+  printf("NO");
 }
+return 0;
 }
