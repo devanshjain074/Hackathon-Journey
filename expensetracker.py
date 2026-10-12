@@ -1,4 +1,4 @@
-git pushexpenses = []
+expenses = []
 
 while True:
     item = input("Enter expense name (or type 'done'): ")
